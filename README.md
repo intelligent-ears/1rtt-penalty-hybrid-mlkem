@@ -40,7 +40,7 @@ As satellite operators race to deploy quantum-safe authentication before "Q-Day,
 *First-attempt success rates under 1.5% packet loss. Pure ML-KEM-1024 approaches 95% reliability limit.*
 
 ### Algorithm Performance
-![Algorithm Performance](imagesalgorithm_performance.png)
+![Algorithm Performance](images/algorithm_performance.png)
 *Cryptographic computation times. Hybrid overhead (0.529ms) is negligible vs 47.7ms satellite RTT.*
 
 ---
