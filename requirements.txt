@@ -1,0 +1,19 @@
+# Python dependencies for Hybrid PQC Satellite Research
+# BSides Mussoorie 2026
+# Author: K Arya Sekhar Das
+
+# Core scientific computing
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# Cryptography
+cryptography>=41.0.0,<44.0.0
+
+# Visualization
+matplotlib>=3.7.0,<4.0.0
+
+# Optional: For better progress bars (not required)
+# tqdm>=4.65.0
+
+# Note: liboqs-python is NOT required for this implementation
+# We use published benchmarks instead of direct ML-KEM measurements
