@@ -32,15 +32,15 @@ As satellite operators race to deploy quantum-safe authentication before "Q-Day,
 ## Visual Results
 
 ### Latency Comparison
-![Latency Impact](latency_comparison.png)
+![Latency Impact](images/latency_comparison.png)
 *Left: Fragmentation increases with PQC (1→2→3 fragments). Right: Mean latency comparison showing 18% improvement.*
 
 ### Success Rates
-![Success Rates](success_rate_comparison.png)
+![Success Rates](images/success_rate_comparison.png)
 *First-attempt success rates under 1.5% packet loss. Pure ML-KEM-1024 approaches 95% reliability limit.*
 
 ### Algorithm Performance
-![Algorithm Performance](algorithm_performance.png)
+![Algorithm Performance](imagesalgorithm_performance.png)
 *Cryptographic computation times. Hybrid overhead (0.529ms) is negligible vs 47.7ms satellite RTT.*
 
 ---
@@ -142,28 +142,7 @@ The convergence of Non-Terrestrial Networks (NTNs) and post-quantum cryptography
 }
 ```
 
-**Full Paper PDF:** [Link will be added after conference]
-
----
-
-## Repository Contents
-
-```
-hybrid-pqc-satellite-6g/
-├── README.md                          # This file
-├── LICENSE                            # MIT License
-├── requirements.txt                   # Python dependencies
-│
-├── bsides_simplified_v3_FINAL.py      # Main simulation code
-│   ├── CryptoBenchmark class         # X25519 + ML-KEM timing
-│   ├── LEOSatellite class            # Orbital mechanics model
-│   ├── HandshakeSimulator class      # Network performance analysis
-│   └── Visualization functions       # Publication-quality graphs
-│
-├── latency_comparison.png             # Figure 1: Fragmentation & latency
-├── success_rate_comparison.png        # Figure 2: Reliability comparison
-└── algorithm_performance.png          # Figure 3: Crypto timing
-```
+**Full Paper PDF:** https://github.com/intelligent-ears/1rtt-penalty-hybrid-mlkem/blob/main/paper.pdf
 
 ---
 
@@ -331,23 +310,3 @@ The LNM Institute of Information Technology, Jaipur
 
 **Email:** 24uec247@lnmiit.ac.in  
 
-**Research Interests:** Post-Quantum Cryptography, Satellite Communications, Network Security, 6G Systems
-
----
-
-<div align="center">
-
-**Made with ❤️ for the security research community**
-
-**Quantum-safe cryptography for everyone, everywhere—even in space! 🛰️🔐**
-
----
-
-*"The best time to deploy quantum-safe cryptography was 10 years ago.*  
-*The second best time is now."*
-
----
-
-[![BSides Mussoorie 2026](https://img.shields.io/badge/Presented%20at-BSides%20Mussoorie%202026-blue?style=for-the-badge)](https://bsidesmussoorie.in/)
-
-</div>
